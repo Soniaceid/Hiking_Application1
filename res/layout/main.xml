@@ -1,0 +1,97 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relative_l"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/greek_mountains" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="29dp"
+        android:padding="@dimen/padding_medium"
+        android:text="@string/quote"
+        android:textColor="#5D8AA8"
+        android:textSize="@dimen/padding_large"
+        tools:context=".MainActivity" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="51dp"
+        android:text="@string/pick"
+        android:textColor="#FF7F00"
+        android:textSize="20dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="40dp"
+        android:background="#FF7F00"
+          android:prompt="@string/pick"
+        android:text="@string/pick" />
+       <!-- android:entries="@array/activities_array"-->
+       
+     
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/spinner1"
+        android:layout_marginBottom="17dp"
+        android:text="@string/Gps"
+        android:textColor="#FF7F00" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/button1"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/button1"
+        android:text="@string/Start"
+        android:textColor="#FF7F00" />
+
+    <TextView
+        android:id="@+id/autoCompleteTextView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/spinner1"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:textColor="#FF7F00"
+        android:text="@string/hw" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/autoCompleteTextView1"
+        android:layout_marginTop="27dp"
+        android:layout_toLeftOf="@+id/button2"
+        android:ems="10"
+        android:hint="@string/weight"
+        android:inputType="numberDecimal"
+        android:textColor="#FF7F00" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout>

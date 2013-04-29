@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+<item android:id="@+id/login"
+android:title="Log In"
+android:textColor="#FF2824" 
+android:showAsAction="always"
+/>
+<item android:id="@+id/delete"
+android:title="Delete Activity"
+android:textColor="#FF2824"
+android:showAsAction="always" />
+<item android:id="@+id/upload"
+android:title="Upload it!"
+android:textColor="#FF2824"
+android:showAsAction="always" />
+</menu>

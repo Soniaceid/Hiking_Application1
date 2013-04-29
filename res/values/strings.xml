@@ -1,0 +1,169 @@
+<resources>
+
+    <string name="app_name">HikingApp</string>
+  
+    <!-- login screen-->
+    <string name="welcome">Welcome!</string>
+    <string name="login">Log In</string>
+    <string name="sign">Sign Up</string>
+    <string name="nick">Nickname</string>
+    <string name="password">Password</string>
+    <string name="remember">Remember me</string>
+    
+    
+<!--end of login screen-->
+   
+   
+    <!-- gallery screen-->
+    <string name="picture">picture</string>
+   
+    <string name="upload">upload image</string>
+    
+    
+<!--end of gallery screen-->
+
+
+
+   <!-- show_close_route screen-->
+    <string name="upby">Uploaded by :</string>
+   
+   
+    
+    
+<!--end of show_close_route screen-->
+  
+   <!-- my_best screen-->
+    <string name="best_dist">Longest distance :</string>
+   <string name="best_cal">Top Calories :</string>
+   <string name="best">My best records</string>
+   <string name="goal">Set a goal!</string>
+   <string name="goald">Set the distance:</string>
+    <string name="goalc">Set the calories:</string>
+<!--end of my_best screen-->
+ 
+ 
+ 
+  <!-- details_trek screen-->
+  
+    <string name="nothing"> </string>
+    <string name="details">Summary </string>
+   
+      <string name="typee">Activity : </string>
+    <string name="loca">Location : </string>
+  
+     <string name="datee">Date : </string>
+    <string name="dista">Distance : </string>
+      <string name="calor">Calories : </string>
+    <string name="timee">Time : </string>
+   <string name="gallery">Gallery </string>
+  <!--end of details_trek screen-->
+  <!-- signup screen-->
+  
+    <string name="email">Email</string>
+    <string name="settings_dob">Birth Date:</string> 
+    <string name="settings_dob_not_set">No Date Set</string> 
+    <string name="settings_button_dob">Pick Date</string> 
+    <string name="settings_button_pwd">Set Password</string> 
+    <string name="settings_gender">Gender:</string> 
+    <string name="settings_password">Password:</string> 
+    <string name="settings_password2">Password (again):</string> 
+    <string name="settings_pwd_set">Password Set</string> 
+    <string name="settings_pwd_not_set">No Password Set</string> 
+    <string name="settings_pwd_not_equal">Passwords do not match, please try again.</string> 
+    <string name="settings_pwd_equal">Passwords match.</string> 
+    <string name="next2">Register</string> 
+   <string name="date_set">""</string> 
+   <string name="gender_male">Male</string>
+   <string name="gender_female">Female</string>
+   <string name="gender_neutral">Prefer Not To Say</string>
+   <string name="set_password_string">Set Password</string>   
+    
+<!--end of signup screen-->
+
+
+
+
+
+
+<!-- main screen-->
+  <string name="quote">"It is not talking but walking that will bring us to heaven."
+ -Matthew Henry</string>
+  <string name="pick">Choose an activity:</string>
+ <string name="hw">Set your weight in kg:</string>
+<string name="height">Height e.x:165</string>
+<string name="weight">Weight e.x:50</string>
+  <string-array name="activities_array">
+        <item>Activity</item>
+        <item>Walking</item>
+        <item>Jogging</item>
+        <item>Cycling</item>
+        <item>Hiking</item>
+        <item>Running</item>
+        <item>Mountain-Biking</item>
+        <item>Free-Climbing</item>
+        <item>Skating</item>
+        <item>Skiing</item>
+        <item>Boating</item>
+        <item>Canoeing</item>
+    </string-array>
+
+ <string name="menu_settings">Settings</string>
+  <string name="Gps">Enable Gps</string>
+  <string name="Start">Start!</string>
+  <string name="title_activity_main">MainActivity</string>
+<!--end of main screen-->
+
+<!-- central screen-->
+
+<string name="time2">Pause</string>
+<string name="time1">Start</string>
+<string name="cam">Contentdescription</string>
+<string name="distance">Distance:</string>
+<string name="klm">0,0 meters</string>
+<string name="calories">Calories :</string>
+<string name="cal">0</string>
+<string name="loc1">Location :</string>
+<string name="loc2"></string>
+<string name="speed">AVG speed :</string>
+<!--end of central screen-->
+<!-- mytreks screen-->
+<string name="mytreks">My Treks</string>
+<string name="type">Activity</string>
+<string name="dist">Klm</string>
+<string name="date">Date</string>
+<string name="time">Time</string>
+<string name="more">More</string>
+<!--end of mytreks screen-->
+<!-- diary screen-->
+
+
+<string name="diary">Diary</string>
+<string name="rate">Rate :</string>
+<string name="findings">Natural Findings :</string>
+<string name="dangers">Possible Dangers :</string>
+<string name="physical">Physical Attractions :</string>
+<string name="difficulty">Difficulty :</string>
+<string name="back">Go back</string>
+<string-array name="order_array">
+  
+        <item>Rank</item>
+  
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+     
+    </string-array>
+<!--end of diary screen-->
+
+<string name="photo">Take a photo</string>
+
+<!-- save screen-->
+<string name="save">Do you want to save your process?</string>
+<string name="yes">Ok save it</string>
+<string name="delete">No,thanks!</string>
+
+<!--end of diary screen-->
+
+</resources>

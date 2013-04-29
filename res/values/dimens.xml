@@ -1,0 +1,13 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="edge_2">2dp</dimen>
+    <dimen name="space_map_28">28dp</dimen>
+    <dimen name="edge_login">6dp</dimen>
+    <dimen name="login">40dp</dimen>
+    <dimen name="login2">100dp</dimen>
+    <dimen name="d80dp">80dp</dimen>
+
+</resources>

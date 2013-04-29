@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- central screen-->
+
+<color name="stop_color">#A60000</color>
+<color name="pause_color">#E7731C</color>
+<color name="text_color">#F1F0F0</color>
+<color name="menu_color">#72135D</color>
+
+<!--end of central screen-->
+</resources>
